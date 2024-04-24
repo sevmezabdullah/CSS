@@ -1,52 +1,29 @@
 * {
-  background-color: aqua;
+  background-color: wheat;
 }
 
-h1 {
-  color: red;
-}
-.box {
-  background-color: yellow;
+div {
+  background-color: green;
   width: 100px;
   height: 100px;
-  margin-top: 5px;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  padding-top: 10px;
 }
 
-.inside-box {
+div:hover {
   background-color: red;
   width: 100px;
   height: 100px;
 }
 
-#container {
-  width: 100px;
-  height: 100px;
-  background-color: green;
-  margin-top: 10px;
-}
-
-#articles > p {
-  font-size: 14pt;
-  color: red;
-}
-
-ul:first-child {
-  color: red;
-  background-color: yellow;
-}
-
-p:hover {
-  color: blue;
-}
-
-li:nth-child(odd) {
-  color: red;
-}
 a {
   text-decoration: none;
-  color: inherit;
+  color: black;
+  background-color: blueviolet;
+}
+
+a:hover {
+  background-color: red;
+  color: white;
+  text-decoration: none;
+  margin: 10px;
+  transition: all 0.5s;
 }
